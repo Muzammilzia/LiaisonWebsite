@@ -6,12 +6,12 @@ const Footer = () => {
     <>
     <div className='Footer'>
         <div className='social'>
-            <h1>Liaison</h1>
-            <p>
+            <h1 style = {{textAlign: "center"}}>Tech Marketing Solutions</h1>
+            <p style = {{textAlign: "center"}}>
                 lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad
                 lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad
             </p>
-            <ul>
+            <ul style = {{textAlign: "center"}}>
                 <li><BsFacebook className = 'socialIcon' size={30}/></li>
                 <li><BsWhatsapp className = 'socialIcon' size={30}/></li>
                 <li><BsLinkedin className = 'socialIcon' size={30}/></li>
@@ -27,8 +27,8 @@ const Footer = () => {
             </ul>
         </div>
         <div className='connect'>
-            <h1>CONTACT US</h1>
-            <ul>
+            <h1 style = {{textAlign: "center"}}>CONTACT US</h1>
+            <ul style = {{textAlign: "center"}}>
                 <li>We would love to talk to you</li>
                 <li>+923243238</li>
             </ul>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
     </div>
         <div className='copyrights'>
-            <p>All rights reserved by Liaison</p>
+            <p>All rights reserved by Tech Marketing Solutions</p>
             <p>Website by Muzzammil</p>
         </div>
         </>

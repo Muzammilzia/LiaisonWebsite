@@ -61,7 +61,7 @@
   top: -2px;
   left: -1px;
   position: relative;
-  background-color: #000;
+  background-color: rgb(124,124,124);
   content: '';
   display: inline-block;
   visibility: visible;
@@ -78,7 +78,7 @@
   content: '';
   display: inline-block;
   visibility: visible;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 .dot:hover:after {
   cursor: pointer;
@@ -92,14 +92,14 @@
   content: '';
   display: inline-block;
   visibility: visible;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 /*Header*/
 .Header{
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
   color: rgb(124,124,124);
+  box-sizing: border-box;
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -209,6 +209,8 @@
   position: relative;
   animation-name: Headeropen;
   animation-duration: 2s;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(124,124,124);
 }
 @keyframes example {
   0%   {transform: rotatey(0deg);}
@@ -232,6 +234,50 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
   rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   z-index: 2;
+}
+.dotCard{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.dotCard:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: rgb(124,124,124);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+.dotCard:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #fff;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid black;
+}
+.Card:hover .dotCard:after, .dotCard:hover:after {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: rgb(235, 235, 235);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid black;
 }
 @media (max-width: 998px){
   .Header, .imageSlider{
@@ -468,8 +514,7 @@ font-size: 2.5rem;
 .address{
   width: 330px;
   padding: 0 30px;
-  text-align: justify;
-
+  text-align: center;
 }
 .address ul, .connect ul{
 margin: 0;
@@ -487,7 +532,6 @@ padding: 0;
 .connect{
   width: 330px;
   padding: 0 30px;
-  text-align: justify;
 }
 .connect button{
   text-align: center;
@@ -497,6 +541,7 @@ padding: 0;
   color: white;
   background-color: rgb(6,126,245);
   border: none;
+  margin: 15px 45px;
 }
 @media (max-width: 1030px){
   .Footer{
@@ -525,13 +570,13 @@ padding: 0;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #09325f;
 }
 .copyrights > *{
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  width: 300px;
+  width: 350px;
   text-align: center;
 }
 
@@ -775,4 +820,45 @@ padding: 0;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+.services .serviceText{
+  padding: 0 200px;
+}
+.services .serviceCardDiv{
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.services .serviceCardDiv .serviceCard{
+  width: 35%;
+  margin: 35px 25px;
+  padding: 20px;
+  background-color: rgb(247,247,247);
+  border-radius: 25px;
+  transition: 1s;
+}
+.services .serviceText{
+  margin-top: 30px;
+}
+.serviceCard:hover{
+  transform: scale(1.2);
+}
+
+@media (max-width: 998px){
+  .services .serviceCardDiv{
+    flex-direction: column;
+    align-items: center;
+  }
+  .services .serviceCardDiv .serviceCard{
+    width: 60%;
+    margin: 35px 0;
+  }
+  .services .serviceText{
+    padding: 0 80px;
+  }
+}
+.serviceCard h1, .serviceCard p{
+  margin: 5px;
 }

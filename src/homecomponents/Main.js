@@ -13,13 +13,13 @@ const Main = () => {
   return (
     <div className='Main'>
         <AnimatedOnScroll animationIn="bounceInLeft">
-        <h1>PAKISTAN’S LARGEST ECOMMERCE NETWORK</h1>
+        <h1 style={{ textAlign: "center", fontFamily: 'Roboto, sans-serif', color: 'rgb(124,124,124)'}}>E-Commerce Aspects</h1>
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="bounceInLeft">
         <div className='innerMain' >
             {CardData.map((data, index)=> {
                 const { text, Icon } = data;
-                return <CardForm key={index} value={index} text={text} Icon={Icon} current = {current} setCurrent = {setCurrent} clicked = {clicked} setClicked = {setClicked} setPlan = {setPlan}/>//</button> 
+                return <CardForm key={index} value={index} text={text} Icon={Icon} current = {current} setCurrent = {setCurrent} clicked = {clicked} setClicked = {setClicked} setPlan = {setPlan} />//</button> 
             })}
         </div>
         </AnimatedOnScroll>
@@ -41,9 +41,10 @@ const Main = () => {
               <label>
                 <span>plan :</span>
                 <select value={plan} onChange={event => setPlan(event.target.value)}>
-                  <option value="Private Label">Private Label</option>
-                  <option value="Wholesale FBA">Wholesale FBA</option>
-                  <option value="Amazon">Amazon</option>
+                  {CardData.map((data, index) => {
+                    const {text, Icon} = data
+                    return <option value={text}>{text}</option>
+                  })}
                 </select>
               </label>
               <input type="submit" value="Submit" />

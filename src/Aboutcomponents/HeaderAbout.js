@@ -4,7 +4,7 @@ import download5 from '../assets/download5.jfif'
 const HeaderAbout = (props) => {
   return (
     <div className='HeaderAbout'>
-        <div className='HeadingText'>
+        <div className='HeadingText' style={{top: `${props.top}px`}}>
           <p>{props.para}</p>
           <h2>{props.heading}</h2>
         </div>

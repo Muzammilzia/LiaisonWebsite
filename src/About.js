@@ -7,7 +7,7 @@ import Footer from './homecomponents/Footer'
 const About = () => {
   return (
     <div className='About'>
-      <HeaderAbout para = "WE ARE" heading = "PAKISTAN'S LARGEST ECOMMERCE NETWORK" height = {200} />
+      <HeaderAbout para = "WE ARE" heading = "Leading Ecommerce company" height = {200} />
       <MainAbout />
       <ContentAbout />
       <Footer />

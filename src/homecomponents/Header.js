@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <section className='Header'>
         <AnimatedOnScroll animationIn="bounceInLeft">
-          <h1>PAKISTAN’S LARGEST ECOMMERCE NETWORK</h1>
-          <h4>Enablers is directing the people of Pakistan towards business growth, working on the biggest markets of the world, and becoming successful entrepreneurs.</h4>
+          <h1>Tech Marketing is the new quality</h1>
+          <h4>don't have idea about marketing, we got you! Tech Marketing Soltion believes in quality and is prociding great solutions to it's client.</h4>
         </AnimatedOnScroll>
     </section>
   )

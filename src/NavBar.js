@@ -13,11 +13,10 @@ const NavBar = () => {
   }, [window.screen])
 
   return (
-      <nav className="main-nav">
-        
+      <nav className="main-nav">        
         <div className="logo">
           <h2>
-            <span>L</span>iaison
+            <span>T</span>ech
             <span>M</span>arketing
             <span>S</span>olutions
           </h2>

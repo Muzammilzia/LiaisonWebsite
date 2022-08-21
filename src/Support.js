@@ -9,7 +9,7 @@ const Support = () => {
   const [message, setMessage] = useState('Your Message');
   return (
     <div className='support'>
-      <HeaderAbout para = "WE ARE" heading = "PAKISTAN'S LARGEST ECOMMERCE NETWORK" height = {200}/>
+      <HeaderAbout para = "WE ARE" heading = "Leading Ecommerce company" height = {200}/>
       <div className='supportForm'>
         <div className='supportFormLeft'>
           <h2>Find us at</h2>
