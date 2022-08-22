@@ -34,16 +34,16 @@ const NavBar = () => {
           }>
           <ul>
             <li>
-            <Link to="/">HOME</Link>
+            <Link to="/TechMarketingSolutions">HOME</Link>
             </li>
             <li>
-            <Link to="/about">ABOUT</Link>
+            <Link to="/TechMarketingSolutions/about">ABOUT</Link>
             </li>
             <li>
-            <Link to="/services">SERVICES</Link>
+            <Link to="/TechMarketingSolutions/services">SERVICES</Link>
             </li>
             <li>
-            <Link to="/support">SUPPORT</Link>
+            <Link to="/TechMarketingSolutions/support">SUPPORT</Link>
             </li>
           </ul>
         </div>
