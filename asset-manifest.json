@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TechMarketingSolutions/static/css/main.7fa584d2.css",
-    "main.js": "/TechMarketingSolutions/static/js/main.9c6d7f38.js",
+    "main.js": "/TechMarketingSolutions/static/js/main.542bd626.js",
     "static/media/download3.jfif": "/TechMarketingSolutions/static/media/download3.f7354fe50de0112917c4.jfif",
     "static/media/download2.jfif": "/TechMarketingSolutions/static/media/download2.5d15f7de0e11292b51f8.jfif",
     "static/media/download1.jfif": "/TechMarketingSolutions/static/media/download1.3948138ed21a779b37c2.jfif",
@@ -9,10 +9,10 @@
     "static/media/download.jfif": "/TechMarketingSolutions/static/media/download.133e6a8c9df526c05233.jfif",
     "index.html": "/TechMarketingSolutions/index.html",
     "main.7fa584d2.css.map": "/TechMarketingSolutions/static/css/main.7fa584d2.css.map",
-    "main.9c6d7f38.js.map": "/TechMarketingSolutions/static/js/main.9c6d7f38.js.map"
+    "main.542bd626.js.map": "/TechMarketingSolutions/static/js/main.542bd626.js.map"
   },
   "entrypoints": [
     "static/css/main.7fa584d2.css",
-    "static/js/main.9c6d7f38.js"
+    "static/js/main.542bd626.js"
   ]
 }
