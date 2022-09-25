@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const CardForm = (props) => {
-  const {text, Icon, current, setCurrent, value, clicked, setClicked, setPlan, key } = props;
+  const {text, icon, current, setCurrent, value, clicked, setClicked, setPlan, key } = props;
   return (
     <div className='Card'  onClick = {()=> {setCurrent( (prevState) => {
       if(prevState === value){
@@ -14,7 +14,7 @@ const CardForm = (props) => {
       return value
     })}}>
       {console.log(current)}
-      <Icon className="icon" size={150} /> 
+      <img src= {icon} className="icon"/> 
       <h1>{text}</h1>
       <input 
         type="radio" 

@@ -13,13 +13,13 @@ const Main = () => {
   return (
     <div className='Main'>
         <AnimatedOnScroll animationIn="bounceInLeft">
-        <h1 style={{ textAlign: "center", fontFamily: 'Roboto, sans-serif', color: 'rgb(124,124,124)'}}>E-Commerce Aspects</h1>
+        <h1 style={{ display: "block",width: "100%", textAlign: "center", fontFamily: 'Roboto, sans-serif', color: 'rgb(124,124,124)'}}>E-Commerce Aspects</h1>
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="bounceInLeft">
         <div className='innerMain' >
             {CardData.map((data, index)=> {
-                const { text, Icon } = data;
-                return <CardForm key={index} value={index} text={text} Icon={Icon} current = {current} setCurrent = {setCurrent} clicked = {clicked} setClicked = {setClicked} setPlan = {setPlan} />//</button> 
+                const { text, icon } = data;
+                return <CardForm key={index} value={index} text={text} icon={icon} current = {current} setCurrent = {setCurrent} clicked = {clicked} setClicked = {setClicked} setPlan = {setPlan} />//</button> 
             })}
         </div>
         </AnimatedOnScroll>

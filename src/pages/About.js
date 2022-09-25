@@ -1,8 +1,7 @@
 import React from 'react'
-import ContentAbout from './Aboutcomponents/ContentAbout'
-import HeaderAbout from './Aboutcomponents/HeaderAbout'
-import MainAbout from './Aboutcomponents/MainAbout'
-import Footer from './homecomponents/Footer'
+import ContentAbout from '../components/ContentAbout'
+import HeaderAbout from '../components/HeaderAbout'
+import MainAbout from '../components/MainAbout'
 
 const About = () => {
   return (
@@ -10,7 +9,6 @@ const About = () => {
       <HeaderAbout para = "WE ARE" heading = "Leading Ecommerce company" height = {200} />
       <MainAbout />
       <ContentAbout />
-      <Footer />
     </div>
   )
 }

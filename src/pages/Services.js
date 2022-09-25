@@ -1,8 +1,7 @@
 import React from 'react'
-import HeaderAbout from './Aboutcomponents/HeaderAbout'
-import ServicesCard from './Aboutcomponents/ServicesCard'
-import Footer from './homecomponents/Footer'
-import {ServiceCardData} from './homecomponents/data.js'
+import HeaderAbout from '../components/HeaderAbout'
+import ServicesCard from '../components/ServicesCard'
+import {ServiceCardData} from '../components/data.js'
 
 const Services = () => {
   return (
@@ -18,7 +17,6 @@ const Services = () => {
           return <ServicesCard key = {index} heading = {heading} Icon = {Icon} text = {text}/>
         })}
       </div>
-      <Footer />
     </div>
   )
 }

@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { NavBar } from './NavBar';
-import './App.css';
-import { Home } from './Home';
-import { About } from './About';
-import { Services } from './Services';
-import { Support } from './Support';
+import { NavBar } from './components/NavBar';
+import './assets/css/App.css';
+import { Home } from './pages/Home';
+import { About } from './pages/About';
+import { Services } from './pages/Services';
+import { Support } from './pages/Support';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/TechMarketingSolutions/services' element={ <Services /> } />
           <Route path='/TechMarketingSolutions/support' element={ <Support /> } />
         </Routes>
+        <Footer/>
       </Router>
   );
 }

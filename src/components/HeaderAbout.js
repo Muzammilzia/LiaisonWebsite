@@ -1,5 +1,5 @@
 import React from 'react'
-import download5 from '../assets/download5.jfif'
+import download5 from '../assets/images/download5.jfif'
 
 const HeaderAbout = (props) => {
   return (

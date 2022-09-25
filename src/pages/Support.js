@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import HeaderAbout from './Aboutcomponents/HeaderAbout'
+import HeaderAbout from '../components/HeaderAbout'
 import {RiWhatsappFill, RiMailFill, RiMapPin2Fill} from 'react-icons/ri'
-import Footer from './homecomponents/Footer';
 
 const Support = () => {
   const [name, setName] = useState('Your Name');
@@ -17,19 +16,19 @@ const Support = () => {
             <li>
               <a href="#">
               <RiWhatsappFill size={30}/>
-                <span>+asdasdasd</span>
-                </a>
-            </li>
-            <li>
-              <a href="#">
-              <RiMailFill size={30}/>
-                <span>asdasdasd</span>
+                <span>0314-9256022</span>
               </a>
             </li>
             <li>
               <a href="#">
-              <RiMapPin2Fill size={30}/>
-                <span>asdasdsadsa</span>
+              <RiWhatsappFill size={30}/>
+                <span>415-853-1482</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <RiMailFill size={30}/>
+                <span>liaisonec1@gmail.com</span>
               </a>
             </li>
           </ul>
@@ -52,7 +51,6 @@ const Support = () => {
           </form>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
