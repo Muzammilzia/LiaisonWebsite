@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/TechMarketingSolutions/static/css/main.7fa584d2.css",
-    "main.js": "/TechMarketingSolutions/static/js/main.542bd626.js",
-    "static/media/download3.jfif": "/TechMarketingSolutions/static/media/download3.f7354fe50de0112917c4.jfif",
-    "static/media/download2.jfif": "/TechMarketingSolutions/static/media/download2.5d15f7de0e11292b51f8.jfif",
-    "static/media/download1.jfif": "/TechMarketingSolutions/static/media/download1.3948138ed21a779b37c2.jfif",
+    "main.css": "/TechMarketingSolutions/static/css/main.22264705.css",
+    "main.js": "/TechMarketingSolutions/static/js/main.2fd5cb2d.js",
+    "static/media/AmazonPLSlide.png": "/TechMarketingSolutions/static/media/AmazonPLSlide.58b750ae7e1472f0c18a.png",
+    "static/media/AmazonWholeSaleSlide.png": "/TechMarketingSolutions/static/media/AmazonWholeSaleSlide.7925004eaa42b4990239.png",
+    "static/media/ShopifySlide.png": "/TechMarketingSolutions/static/media/ShopifySlide.0df47986ba7bb2ca4201.png",
+    "static/media/Amazon_PL Logo.jpg": "/TechMarketingSolutions/static/media/Amazon_PL Logo.9fcaccff3ca65b582d6b.jpg",
+    "static/media/Amazon_wholeSale_Logo.jpg": "/TechMarketingSolutions/static/media/Amazon_wholeSale_Logo.fa9d3de5f17f5cae5eab.jpg",
+    "static/media/Shopify_Logo.jpg": "/TechMarketingSolutions/static/media/Shopify_Logo.0f369bac5227a041c171.jpg",
     "static/media/download5.jfif": "/TechMarketingSolutions/static/media/download5.97d3a32d6382172c81d9.jfif",
-    "static/media/download.jfif": "/TechMarketingSolutions/static/media/download.133e6a8c9df526c05233.jfif",
     "index.html": "/TechMarketingSolutions/index.html",
-    "main.7fa584d2.css.map": "/TechMarketingSolutions/static/css/main.7fa584d2.css.map",
-    "main.542bd626.js.map": "/TechMarketingSolutions/static/js/main.542bd626.js.map"
+    "main.22264705.css.map": "/TechMarketingSolutions/static/css/main.22264705.css.map",
+    "main.2fd5cb2d.js.map": "/TechMarketingSolutions/static/js/main.2fd5cb2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fa584d2.css",
-    "static/js/main.542bd626.js"
+    "static/css/main.22264705.css",
+    "static/js/main.2fd5cb2d.js"
   ]
 }
