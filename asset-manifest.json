@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/TechMarketingSolutions/static/css/main.f7946439.css",
-    "main.js": "/TechMarketingSolutions/static/js/main.96c73c62.js",
+    "main.css": "/TechMarketingSolutions/static/css/main.06c0c4db.css",
+    "main.js": "/TechMarketingSolutions/static/js/main.3f8d59a7.js",
     "static/media/AmazonPLSlide.png": "/TechMarketingSolutions/static/media/AmazonPLSlide.58b750ae7e1472f0c18a.png",
     "static/media/AmazonWholeSaleSlide.png": "/TechMarketingSolutions/static/media/AmazonWholeSaleSlide.7925004eaa42b4990239.png",
     "static/media/ShopifySlide.png": "/TechMarketingSolutions/static/media/ShopifySlide.0df47986ba7bb2ca4201.png",
+    "static/media/Amazon_ONLINE_ARBITRAGE_LOGO.jpg": "/TechMarketingSolutions/static/media/Amazon_ONLINE_ARBITRAGE_LOGO.2b8315310a4ad2e85091.jpg",
+    "static/media/Amazon_RAPID_LAUNCH_LOGO.jpg": "/TechMarketingSolutions/static/media/Amazon_RAPID_LAUNCH_LOGO.14c2371bd8d7e93134fc.jpg",
     "static/media/Amazon_PL Logo.jpg": "/TechMarketingSolutions/static/media/Amazon_PL Logo.9fcaccff3ca65b582d6b.jpg",
     "static/media/Amazon_wholeSale_Logo.jpg": "/TechMarketingSolutions/static/media/Amazon_wholeSale_Logo.fa9d3de5f17f5cae5eab.jpg",
     "static/media/Shopify_Logo.jpg": "/TechMarketingSolutions/static/media/Shopify_Logo.0f369bac5227a041c171.jpg",
-    "static/media/download5.jfif": "/TechMarketingSolutions/static/media/download5.97d3a32d6382172c81d9.jfif",
+    "static/media/banner.jpg": "/TechMarketingSolutions/static/media/banner.4c5e5c7671f8fafe61eb.jpg",
+    "static/media/LMSLogo.png": "/TechMarketingSolutions/static/media/LMSLogo.a8d1c09e5c1ee922a192.png",
     "index.html": "/TechMarketingSolutions/index.html",
-    "main.f7946439.css.map": "/TechMarketingSolutions/static/css/main.f7946439.css.map",
-    "main.96c73c62.js.map": "/TechMarketingSolutions/static/js/main.96c73c62.js.map"
+    "main.06c0c4db.css.map": "/TechMarketingSolutions/static/css/main.06c0c4db.css.map",
+    "main.3f8d59a7.js.map": "/TechMarketingSolutions/static/js/main.3f8d59a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7946439.css",
-    "static/js/main.96c73c62.js"
+    "static/css/main.06c0c4db.css",
+    "static/js/main.3f8d59a7.js"
   ]
 }
