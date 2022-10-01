@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
+/* #292929 */
+
+/* #f68338 */
+
+/* #cccccc */
+
 /*Home*/
 .Home{
   display: flex;
@@ -16,15 +22,15 @@
 .imageSlider{
   width: 60%;
   box-sizing: border-box;
-  /* height: 86vh; */
-  height: 622px;
-  border: 3px solid black;
+  height: 76vh;
+  /* height: 622px; */
+  /* border: 3px solid black; */
   overflow: hidden;
 }
 .slider{
   width: 95%;
   /* width: 860px; */
-  height: 80vh;
+  height: 70vh;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -37,24 +43,25 @@
 .image{
   min-width: 100%;
   box-sizing: border-box;
-  /* height: 80vh; */
-  height: 582px;
+  height: 70vh;
+  /* height: 582px; */
   border-radius: 10px;
   transition: 1s;
   z-index: 2;
 }
 .dotscontainer{
-  background-color: #09325f;
+  /* background-color: #09325f; */
+  background-color: #292929;
   width: 95%;
   border-radius: 10px;
-  height: 80vh;
+  height: 70vh;
   float: right;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
   position: relative;
   z-index: 0;
-  top: -75vh;
+  top: -65vh;
 }
 .dot{
   margin-left: 10px;
@@ -105,6 +112,7 @@
 .Header{
   font-family: 'Roboto', sans-serif;
   color: rgb(124,124,124);
+  /* color: black; */
   box-sizing: border-box;
   width: 40%;
   display: flex;
@@ -117,12 +125,12 @@
   padding: 0 60px; 
 }
 .Header h1{
-  font-size: 2.2vw;
-  text-align: center;
+  font-size: 2vw;
+  text-align: left;
 }
 .Header h4{
-  font-size: 1.3vw;
-  text-align: center;
+  font-size: 1.1vw;
+  text-align: left;
 }
 
 /*Main*/
@@ -131,6 +139,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  align-items: center  ;
   padding: 40px 0;
 }
 .innerMain{
@@ -155,14 +164,14 @@
 }
 @keyframes MainFormOpen {
   0%   {height: 0px; opacity: 0; top: -100%;}
-  100% {height: 300px; opacity: 1; top: 0;}
+  100% {height: 390px; opacity: 1; top: 0;}
 }
 .MainForm{
-  margin-top: 20px;
+  /* margin-top: 20px; */
   position: relative;
   text-align: center;
-  padding: 0 20px;
-  height: 300px;
+  /* padding: 0 20px; */
+  height: 390px;
   animation-name: MainFormOpen;
   animation-duration: 2s;
   animation-iteration-count: 1;
@@ -170,6 +179,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 0 0 45px;
 }
 .MainForm form{
   display: flex;
@@ -179,6 +189,9 @@
   width: 75vw;
 }
 .MainForm form label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   margin: 7px 0;
 }
@@ -218,6 +231,7 @@
   animation-duration: 2s;
   font-family: 'Roboto', sans-serif;
   color: rgb(124,124,124);
+  margin: 15px 15px;
 }
 @keyframes example {
   0%   {transform: rotatey(0deg);}
@@ -229,6 +243,11 @@
   animation-name: example;
   animation-duration: 2s;
   animation-iteration-count: 1;
+}
+.icon{
+  width: 150px;
+  height: 150px;
+  border-radius: 3rem;
 }
 
 .Card:hover{
@@ -292,9 +311,11 @@
   }
   .Header h1{
     font-size: 2.7vw;
+    text-align: center;
   }
   .Header h4{
     font-size: 1.8vw;
+    text-align: center;
   }
 }
 @media (max-width: 798px){
@@ -321,6 +342,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  background-color: #292929;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
@@ -357,7 +379,8 @@ font-size: 2.5rem;
   font-size: 1.3vw;
   text-decoration:  none;
   font-family: 'Roboto', sans-serif;
-  color: rgb(124,124,124);
+  color: rgb(222, 222, 222);
+  /* color: white; */
 }
 
 .main-nav .menu-link ul{
@@ -369,18 +392,22 @@ font-size: 2.5rem;
   display: inline-block;
   position: relative;
   list-style: none;
+  transition: 0.5s;
+}
+.main-nav .menu-link ul li:hover{
+  transform: scale(1.3);
 }
 .main-nav .menu-link ul li:after{
   content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 3px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: white;
   transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.5s ease-out;
 }
 .main-nav .menu-link ul li:hover:after{
   transform: scaleX(1);
@@ -485,9 +512,11 @@ font-size: 2.5rem;
 .Footer{
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  /* color: #fff; */
+  color: rgb(216, 216, 216);
   display: flex;
-  background-color: #09325f;
+  /* background-color: #09325f; */
+  background-color: #292929;
   justify-content: space-evenly;
   align-items: stretch;
   flex-wrap: wrap;
@@ -513,6 +542,9 @@ font-size: 2.5rem;
   display: inline;
   padding: 0 10px;
   transition: 1s;
+}
+.socialIcon{
+  color: white;
 }
 .social ul li:hover .socialIcon{
   cursor: pointer;
@@ -540,15 +572,18 @@ padding: 0;
   width: 330px;
   padding: 0 30px;
 }
-.connect button{
+.address button{
   text-align: center;
   cursor: pointer;
   height: 50px;
   width: 240px;
   color: white;
-  background-color: rgb(6,126,245);
+  /* background-color: rgb(6,126,245); */
+  background-color: #f68338 ;
   border: none;
   margin: 15px 45px;
+  border-radius: 1rem;
+  font-size: 16px;
 }
 @media (max-width: 1030px){
   .Footer{
@@ -578,7 +613,8 @@ padding: 0;
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #09325f;
+  /* background-color: #09325f; */
+  background-color: #292929;
 }
 .copyrights > *{
   font-family: 'Roboto', sans-serif;
@@ -606,7 +642,7 @@ padding: 0;
   padding-bottom: 30px;
 }
 .HeaderAbout .front{
-  width: 95%;
+  width: 100%;
 }
 .HeaderAbout .HeadingText{
   position: absolute;
@@ -701,7 +737,8 @@ padding: 0;
   height: 50px;
   width: 240px;
   color: white;
-  background-color: black;
+  /* background-color: black; */
+  /* background-color: #f68338 ; */
   border: none;
   margin: 15px 0;
 
@@ -749,10 +786,12 @@ padding: 0;
 .support .supportForm{
   display: flex;
   flex-wrap: wrap;
-  margin: 30px 0;
-  padding: 30px 0;
+  flex-direction: column-reverse;
+  /* margin: 30px 0;
+  padding: 30px 0; */
   width: 80%;
 }
+
 .support .supportForm > *{
   flex: 1;
   min-width: 392px;
@@ -762,13 +801,112 @@ padding: 0;
   flex-direction: column;
   padding: 30px 0;
 }
-.support .supportForm .supportFormLeft{
-  border-right: 3px solid black;
+.support .supportForm .supportFormRight{
+  /* border-right: 3px solid black; */
+  /* border-bottom: 3px solid black; */
+
 }
+
+.support .supportForm .supportFormLeft ul{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  width: 280px;
+  margin: 0;
+  padding: 0;
+}
+.support .supportForm .supportFormLeft ul li{
+  list-style: none;
+  padding: 10px 10px;
+  text-align: center;
+  /* width: 280px; */
+  transition: 1s;
+}
+.support .supportForm .supportFormLeft ul li:hover{
+  /* transform: scale(1.3); */
+}
+.support .supportForm .supportFormLeft ul li a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.support .supportForm .supportFormLeft ul li a span{
+  /* position: relative;
+  left: -13px; */
+  width: 0;
+  overflow: hidden;
+  height: 20px;
+  transition: all 1s;
+}
+.support .supportForm .supportFormLeft ul li a:hover span{
+  width: 100%;
+}
+
+.support .supportForm .supportFormRight form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.support .supportForm .supportFormRight form label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  width: 90%;
+
+}
+.support .supportForm .supportFormRight form label span{
+  /* padding-left: 5px; */
+  font-size: 20px;
+  font-weight: 600;
+}
+.support .supportForm .supportFormRight form label input, .support .supportForm .supportFormRight form label textarea{
+  width: 50%;
+  margin: 5px 0;
+  font-size: 20px;
+  padding: 10px 5px;
+  /* color: gray; */
+  background-color: rgb(248, 246, 243);
+  display: block;
+  border-radius: 8px;
+  resize: none;
+}
+
+.support .supportForm .supportFormRight form input[type=submit]{
+  background-color: #4CAF50; /* Green */
+  cursor: pointer;
+  margin-top: 6px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 @media (max-width: 998px){
+  .support .supportForm .supportFormRight form label input, .support .supportForm .supportFormRight form label textarea{
+    width: 90%;
+  }
+  .support .supportForm .supportFormLeft ul li a span{
+    width: 100%;
+  }
+  .support .supportForm .supportFormLeft ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
   .support .supportForm .supportFormLeft{
     border-right: none;
-    border-bottom: 3px solid black;
+    /* border-bottom: 3px solid black; */
   }
   .support .supportForm > *{
     min-width: 392px;
@@ -790,68 +928,8 @@ padding: 0;
   }
 }
 
-.support .supportForm .supportFormLeft ul{
-  margin: 0;
-  padding: 0;
-}
-.support .supportForm .supportFormLeft ul li{
-  list-style: none;
-  padding: 10px 10px;
-  width: 180px;
-  transition: 1s;
-}
-.support .supportForm .supportFormLeft ul li:hover{
-  transform: scale(1.3);
-}
-.support .supportForm .supportFormLeft ul li a{
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  color: black;
-}
-.support .supportForm .supportFormLeft ul li a span{
-  position: relative;
-  top: -10px;
-  left: 12px;
-}
 
-.support .supportForm .supportFormRight form{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.support .supportForm .supportFormRight form label{
-  width: 90%;
-}
-.support .supportForm .supportFormRight form label span{
-  padding-left: 5px;
-  font-size: 15px;
-  font-weight: bolder;
-}
-.support .supportForm .supportFormRight form label input, .support .supportForm .supportFormRight form label textarea{
-  width: 90%;
-  margin: 5px 0;
-  font-size: 15px;
-  padding: 10px 5px;
-  color: gray;
-  background-color: rgb(248, 246, 243);
-  display: block;
-  border-radius: 8px;
-  resize: none;
-}
-.support .supportForm .supportFormRight form input[type=submit]{
-  background-color: #4CAF50; /* Green */
-  cursor: pointer;
-  margin-top: 6px;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
+
 .services .serviceText{
   padding: 0 200px;
 }

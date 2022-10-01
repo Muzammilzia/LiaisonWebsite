@@ -8,7 +8,7 @@ const About = () => {
     <div className='About'>
       <HeaderAbout para = "WE ARE" heading = "Leading Ecommerce company" height = {200} />
       <MainAbout />
-      <ContentAbout />
+      {/* <ContentAbout /> */}
     </div>
   )
 }

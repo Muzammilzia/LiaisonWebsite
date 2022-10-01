@@ -1,12 +1,16 @@
 import React from 'react'
 import {BsFacebook, BsWhatsapp, BsLinkedin} from 'react-icons/bs'
+import LOGO from '../assets/images/LMS_LOGO_35px.png'
 
 const Footer = () => {
   return (
     <>
     <div className='Footer'>
         <div className='social'>
-            <h1 style = {{textAlign: "center"}}>Tech Marketing Solutions</h1>
+            {/* <h1 style = {{textAlign: "center"}}>Tech Marketing Solutions</h1> */}
+            <div style={{textAlign: "center"}}>
+                <img src={LOGO}/>
+            </div>
             <p style = {{textAlign: "center"}}>
                 lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad
                 lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad lorem ispsdad
@@ -31,15 +35,15 @@ const Footer = () => {
                 <li><a href='#'>DA15 9ps, sidicup</a></li>
                 <li><a href='#'>London, UK</a></li>
             </ul>
+            <button>Conatct Support</button>
         </div>
-        <div className='connect'>
+        {/* <div className='connect'>
             <h1 style = {{textAlign: "center"}}>CONTACT US</h1>
             <ul style = {{textAlign: "center"}}>
                 <li>We would love to talk to you</li>
                 <li>+923243238</li>
             </ul>
-            <button>Conatct Support</button>
-        </div>
+        </div> */}
     </div>
         <div className='copyrights'>
             <p>All rights reserved by Tech Marketing Solutions</p>

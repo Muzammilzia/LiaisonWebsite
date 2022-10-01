@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const CardForm = (props) => {
   const {text, icon, current, setCurrent, value, clicked, setClicked, setPlan, key } = props;
   return (
@@ -13,7 +12,6 @@ const CardForm = (props) => {
       setPlan(`${text}`)
       return value
     })}}>
-      {console.log(current)}
       <img src= {icon} className="icon"/> 
       <h1>{text}</h1>
       <input 

@@ -6,7 +6,7 @@ const ServicesCard = (props) => {
   return (
     <div className='serviceCard'>
         <Icon size={40}/>
-        <h1>{heading}</h1>
+        <h2>{heading}</h2>
         <p>{text}</p>
     </div>
   )
