@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TechMarketingSolutions/static/css/main.06c0c4db.css",
-    "main.js": "/TechMarketingSolutions/static/js/main.3f8d59a7.js",
+    "main.css": "/TechMarketingSolutions/static/css/main.bedef38f.css",
+    "main.js": "/TechMarketingSolutions/static/js/main.12aac2bb.js",
     "static/media/AmazonPLSlide.png": "/TechMarketingSolutions/static/media/AmazonPLSlide.58b750ae7e1472f0c18a.png",
     "static/media/AmazonWholeSaleSlide.png": "/TechMarketingSolutions/static/media/AmazonWholeSaleSlide.7925004eaa42b4990239.png",
     "static/media/ShopifySlide.png": "/TechMarketingSolutions/static/media/ShopifySlide.0df47986ba7bb2ca4201.png",
@@ -13,11 +13,11 @@
     "static/media/banner.jpg": "/TechMarketingSolutions/static/media/banner.4c5e5c7671f8fafe61eb.jpg",
     "static/media/LMSLogo.png": "/TechMarketingSolutions/static/media/LMSLogo.a8d1c09e5c1ee922a192.png",
     "index.html": "/TechMarketingSolutions/index.html",
-    "main.06c0c4db.css.map": "/TechMarketingSolutions/static/css/main.06c0c4db.css.map",
-    "main.3f8d59a7.js.map": "/TechMarketingSolutions/static/js/main.3f8d59a7.js.map"
+    "main.bedef38f.css.map": "/TechMarketingSolutions/static/css/main.bedef38f.css.map",
+    "main.12aac2bb.js.map": "/TechMarketingSolutions/static/js/main.12aac2bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.06c0c4db.css",
-    "static/js/main.3f8d59a7.js"
+    "static/css/main.bedef38f.css",
+    "static/js/main.12aac2bb.js"
   ]
 }
